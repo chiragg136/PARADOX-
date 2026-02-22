@@ -1,0 +1,750 @@
+{
+  "users": {
+    "user1": {
+      "id": "user1",
+      "name": "Sanjay",
+      "avatar": "S",
+      "color": "#10B981"
+    },
+    "user2": {
+      "id": "user2",
+      "name": "Priya",
+      "avatar": "P",
+      "color": "#8B5CF6"
+    },
+    "user3": {
+      "id": "user3",
+      "name": "Rahul",
+      "avatar": "R",
+      "color": "#F59E0B"
+    },
+    "user4": {
+      "id": "user4",
+      "name": "Anita",
+      "avatar": "A",
+      "color": "#EF4444"
+    }
+  },
+  "carts": {
+    "6fdd1d43": {
+      "id": "6fdd1d43",
+      "name": "21",
+      "ownerId": "user1",
+      "members": [
+        "user1",
+        "user2"
+      ],
+      "items": [
+        {
+          "id": "3d0b2933",
+          "productId": "p28",
+          "quantity": 1,
+          "addedBy": "user2",
+          "addedAt": "2026-02-21T23:37:11.401Z"
+        },
+        {
+          "id": "ad050595",
+          "productId": "p7",
+          "quantity": 1,
+          "addedBy": "user2",
+          "addedAt": "2026-02-21T23:51:10.700Z"
+        },
+        {
+          "id": "ab65c703",
+          "productId": "p3",
+          "quantity": 3,
+          "addedBy": "user2",
+          "addedAt": "2026-02-21T23:51:22.088Z",
+          "merged": true
+        },
+        {
+          "id": "ec82cdfd",
+          "productId": "p23",
+          "quantity": 2,
+          "addedBy": "user2",
+          "addedAt": "2026-02-21T23:51:37.625Z",
+          "merged": true
+        }
+      ],
+      "inviteCode": "A65BAA",
+      "createdAt": "2026-02-21T23:06:09.965Z",
+      "activity": [
+        {
+          "type": "items_merged",
+          "userId": "user2",
+          "message": "Priya merged Fruits items into Banana",
+          "timestamp": "2026-02-21T23:51:37.625Z"
+        },
+        {
+          "type": "items_merged",
+          "userId": "user2",
+          "message": "Priya merged Dairy items into Nandini Milk",
+          "timestamp": "2026-02-21T23:51:22.088Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user2",
+          "message": "Priya added Aashirvaad Atta",
+          "productName": "Aashirvaad Atta",
+          "productEmoji": "🌾",
+          "timestamp": "2026-02-21T23:51:10.700Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user2",
+          "message": "Priya added Banana",
+          "productName": "Banana",
+          "productEmoji": "🍌",
+          "timestamp": "2026-02-21T23:37:51.006Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user2",
+          "message": "Priya added Tea (Taj Mahal)",
+          "productName": "Tea (Taj Mahal)",
+          "productEmoji": "🍵",
+          "timestamp": "2026-02-21T23:37:11.402Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user2",
+          "message": "Priya added Green Apple",
+          "productName": "Green Apple",
+          "productEmoji": "🍏",
+          "timestamp": "2026-02-21T23:36:05.846Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user2",
+          "message": "Priya added Mother Dairy Full Cream Milk",
+          "productName": "Mother Dairy Full Cream Milk",
+          "productEmoji": "🥛",
+          "timestamp": "2026-02-21T23:35:57.325Z"
+        },
+        {
+          "type": "member_joined",
+          "userId": "user2",
+          "message": "Priya joined the cart",
+          "timestamp": "2026-02-21T23:35:26.316Z"
+        },
+        {
+          "type": "items_merged",
+          "userId": "user1",
+          "message": "Sanjay merged Dairy items into Nandini Milk",
+          "timestamp": "2026-02-21T23:06:47.876Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user1",
+          "message": "Sanjay added Mother Dairy Full Cream Milk",
+          "productName": "Mother Dairy Full Cream Milk",
+          "productEmoji": "🥛",
+          "timestamp": "2026-02-21T23:06:14.549Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user1",
+          "message": "Sanjay added Amul Taaza Milk",
+          "productName": "Amul Taaza Milk",
+          "productEmoji": "🥛",
+          "timestamp": "2026-02-21T23:06:13.428Z"
+        },
+        {
+          "type": "cart_created",
+          "userId": "user1",
+          "message": "Sanjay created the cart",
+          "timestamp": "2026-02-21T23:06:09.965Z"
+        }
+      ],
+      "suggestions": [
+        {
+          "id": "f8506914",
+          "type": "swarm_suggestion",
+          "message": "Trending categories missing from your cart: Vegetables",
+          "categories": [
+            "Vegetables"
+          ],
+          "createdAt": "2026-02-21T23:51:10.701Z"
+        }
+      ],
+      "optimizationScore": 100
+    },
+    "32afc37d": {
+      "id": "32afc37d",
+      "name": "T",
+      "ownerId": "user4",
+      "members": [
+        "user4"
+      ],
+      "items": [
+        {
+          "id": "03fd8958",
+          "productId": "p1",
+          "quantity": 1,
+          "addedBy": "user4",
+          "addedAt": "2026-02-22T05:12:38.024Z"
+        },
+        {
+          "id": "eb2a1c9a",
+          "productId": "p2",
+          "quantity": 1,
+          "addedBy": "user4",
+          "addedAt": "2026-02-22T05:12:39.538Z"
+        },
+        {
+          "id": "1b8dfa2e",
+          "productId": "p3",
+          "quantity": 1,
+          "addedBy": "user4",
+          "addedAt": "2026-02-22T05:12:41.070Z"
+        }
+      ],
+      "inviteCode": "29002E",
+      "createdAt": "2026-02-22T05:12:30.903Z",
+      "activity": [
+        {
+          "type": "item_added",
+          "userId": "user4",
+          "message": "Anita added Nandini Milk",
+          "productName": "Nandini Milk",
+          "productEmoji": "🥛",
+          "timestamp": "2026-02-22T05:12:41.071Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user4",
+          "message": "Anita added Mother Dairy Full Cream Milk",
+          "productName": "Mother Dairy Full Cream Milk",
+          "productEmoji": "🥛",
+          "timestamp": "2026-02-22T05:12:39.540Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user4",
+          "message": "Anita added Amul Taaza Milk",
+          "productName": "Amul Taaza Milk",
+          "productEmoji": "🥛",
+          "timestamp": "2026-02-22T05:12:38.027Z"
+        },
+        {
+          "type": "cart_created",
+          "userId": "user4",
+          "message": "Anita created the cart",
+          "timestamp": "2026-02-22T05:12:30.904Z"
+        }
+      ],
+      "suggestions": [
+        {
+          "id": "11112cd9",
+          "type": "merge_suggestion",
+          "category": "Dairy",
+          "currentItems": [
+            {
+              "name": "Amul Taaza Milk",
+              "price": 25,
+              "quantity": 1
+            },
+            {
+              "name": "Mother Dairy Full Cream Milk",
+              "price": 32,
+              "quantity": 1
+            },
+            {
+              "name": "Nandini Milk",
+              "price": 22,
+              "quantity": 1
+            }
+          ],
+          "totalCurrentCost": 79,
+          "suggestedProduct": {
+            "id": "p3",
+            "name": "Nandini Milk",
+            "category": "Dairy",
+            "price": 22,
+            "unit": "500ml",
+            "rating": 4.1,
+            "vestoScore": 8.9,
+            "image": "🥛"
+          },
+          "potentialSavings": 13,
+          "vestoImprovement": 0,
+          "createdAt": "2026-02-22T05:12:41.072Z"
+        },
+        {
+          "id": "890b6b81",
+          "type": "swarm_suggestion",
+          "message": "Trending categories missing from your cart: Vegetables, Fruits",
+          "categories": [
+            "Vegetables",
+            "Fruits"
+          ],
+          "createdAt": "2026-02-22T05:12:41.072Z"
+        }
+      ],
+      "optimizationScore": 100
+    },
+    "44ccd85b": {
+      "id": "44ccd85b",
+      "name": "21",
+      "ownerId": "user1",
+      "members": [
+        "user1",
+        "user4"
+      ],
+      "items": [
+        {
+          "id": "092594ce",
+          "productId": "p2",
+          "quantity": 1,
+          "addedBy": "user1",
+          "addedAt": "2026-02-22T05:18:12.395Z"
+        },
+        {
+          "id": "5603d5fd",
+          "productId": "p3",
+          "quantity": 1,
+          "addedBy": "user1",
+          "addedAt": "2026-02-22T05:18:13.832Z"
+        },
+        {
+          "id": "78c6f48b",
+          "productId": "p1",
+          "quantity": 1,
+          "addedBy": "user1",
+          "addedAt": "2026-02-22T05:18:16.028Z"
+        },
+        {
+          "id": "2e047982",
+          "productId": "p15",
+          "quantity": 1,
+          "addedBy": "user4",
+          "addedAt": "2026-02-22T05:18:58.484Z"
+        },
+        {
+          "id": "508a7db2",
+          "productId": "p24",
+          "quantity": 1,
+          "addedBy": "user4",
+          "addedAt": "2026-02-22T05:18:59.710Z"
+        }
+      ],
+      "inviteCode": "FF4C95",
+      "createdAt": "2026-02-22T05:18:07.589Z",
+      "activity": [
+        {
+          "type": "item_added",
+          "userId": "user4",
+          "message": "Anita added Amul Paneer",
+          "productName": "Amul Paneer",
+          "productEmoji": "🧀",
+          "timestamp": "2026-02-22T05:18:59.711Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user4",
+          "message": "Anita added Amul Butter",
+          "productName": "Amul Butter",
+          "productEmoji": "🧈",
+          "timestamp": "2026-02-22T05:18:58.487Z"
+        },
+        {
+          "type": "member_joined",
+          "userId": "user4",
+          "message": "Anita joined the cart",
+          "timestamp": "2026-02-22T05:18:52.664Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user1",
+          "message": "Sanjay added Amul Taaza Milk",
+          "productName": "Amul Taaza Milk",
+          "productEmoji": "🥛",
+          "timestamp": "2026-02-22T05:18:16.029Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user1",
+          "message": "Sanjay added Nandini Milk",
+          "productName": "Nandini Milk",
+          "productEmoji": "🥛",
+          "timestamp": "2026-02-22T05:18:13.835Z"
+        },
+        {
+          "type": "item_added",
+          "userId": "user1",
+          "message": "Sanjay added Mother Dairy Full Cream Milk",
+          "productName": "Mother Dairy Full Cream Milk",
+          "productEmoji": "🥛",
+          "timestamp": "2026-02-22T05:18:12.397Z"
+        },
+        {
+          "type": "cart_created",
+          "userId": "user1",
+          "message": "Sanjay created the cart",
+          "timestamp": "2026-02-22T05:18:07.589Z"
+        }
+      ],
+      "suggestions": [
+        {
+          "id": "6e86a5b8",
+          "type": "merge_suggestion",
+          "category": "Dairy",
+          "currentItems": [
+            {
+              "name": "Mother Dairy Full Cream Milk",
+              "price": 32,
+              "quantity": 1
+            },
+            {
+              "name": "Nandini Milk",
+              "price": 22,
+              "quantity": 1
+            },
+            {
+              "name": "Amul Taaza Milk",
+              "price": 25,
+              "quantity": 1
+            },
+            {
+              "name": "Amul Butter",
+              "price": 56,
+              "quantity": 1
+            },
+            {
+              "name": "Amul Paneer",
+              "price": 90,
+              "quantity": 1
+            }
+          ],
+          "totalCurrentCost": 225,
+          "suggestedProduct": {
+            "id": "p3",
+            "name": "Nandini Milk",
+            "category": "Dairy",
+            "price": 22,
+            "unit": "500ml",
+            "rating": 4.1,
+            "vestoScore": 8.9,
+            "image": "🥛"
+          },
+          "potentialSavings": 115,
+          "vestoImprovement": 0.3,
+          "createdAt": "2026-02-22T05:18:59.713Z"
+        },
+        {
+          "id": "e5b222ed",
+          "type": "swarm_suggestion",
+          "message": "Trending categories missing from your cart: Vegetables, Fruits",
+          "categories": [
+            "Vegetables",
+            "Fruits"
+          ],
+          "createdAt": "2026-02-22T05:18:59.713Z"
+        }
+      ],
+      "optimizationScore": 100
+    }
+  },
+  "products": [
+    {
+      "id": "p1",
+      "name": "Amul Taaza Milk",
+      "category": "Dairy",
+      "price": 25,
+      "unit": "500ml",
+      "rating": 4.3,
+      "vestoScore": 8.7,
+      "image": "🥛"
+    },
+    {
+      "id": "p2",
+      "name": "Mother Dairy Full Cream Milk",
+      "category": "Dairy",
+      "price": 32,
+      "unit": "500ml",
+      "rating": 4.5,
+      "vestoScore": 9.1,
+      "image": "🥛"
+    },
+    {
+      "id": "p3",
+      "name": "Nandini Milk",
+      "category": "Dairy",
+      "price": 22,
+      "unit": "500ml",
+      "rating": 4.1,
+      "vestoScore": 8.9,
+      "image": "🥛"
+    },
+    {
+      "id": "p4",
+      "name": "Fresh Tomato",
+      "category": "Vegetables",
+      "price": 30,
+      "unit": "500g",
+      "rating": 4,
+      "vestoScore": 9.2,
+      "image": "🍅"
+    },
+    {
+      "id": "p5",
+      "name": "Organic Tomato",
+      "category": "Vegetables",
+      "price": 55,
+      "unit": "500g",
+      "rating": 4.7,
+      "vestoScore": 9.8,
+      "image": "🍅"
+    },
+    {
+      "id": "p6",
+      "name": "Cherry Tomato",
+      "category": "Vegetables",
+      "price": 45,
+      "unit": "250g",
+      "rating": 4.4,
+      "vestoScore": 9.5,
+      "image": "🍅"
+    },
+    {
+      "id": "p7",
+      "name": "Aashirvaad Atta",
+      "category": "Grains",
+      "price": 280,
+      "unit": "5kg",
+      "rating": 4.6,
+      "vestoScore": 8.5,
+      "image": "🌾"
+    },
+    {
+      "id": "p8",
+      "name": "Pillsbury Atta",
+      "category": "Grains",
+      "price": 260,
+      "unit": "5kg",
+      "rating": 4.3,
+      "vestoScore": 8.2,
+      "image": "🌾"
+    },
+    {
+      "id": "p9",
+      "name": "Fortune Sunflower Oil",
+      "category": "Oils",
+      "price": 150,
+      "unit": "1L",
+      "rating": 4.2,
+      "vestoScore": 7.8,
+      "image": "🫒"
+    },
+    {
+      "id": "p10",
+      "name": "Saffola Gold Oil",
+      "category": "Oils",
+      "price": 185,
+      "unit": "1L",
+      "rating": 4.5,
+      "vestoScore": 8.9,
+      "image": "🫒"
+    },
+    {
+      "id": "p11",
+      "name": "Tata Salt",
+      "category": "Spices",
+      "price": 28,
+      "unit": "1kg",
+      "rating": 4.8,
+      "vestoScore": 8,
+      "image": "🧂"
+    },
+    {
+      "id": "p12",
+      "name": "Catch Turmeric Powder",
+      "category": "Spices",
+      "price": 45,
+      "unit": "200g",
+      "rating": 4.4,
+      "vestoScore": 9.3,
+      "image": "🌿"
+    },
+    {
+      "id": "p13",
+      "name": "Maggi Noodles",
+      "category": "Instant Food",
+      "price": 14,
+      "unit": "1 pack",
+      "rating": 4.1,
+      "vestoScore": 3.5,
+      "image": "🍜"
+    },
+    {
+      "id": "p14",
+      "name": "Yippee Noodles",
+      "category": "Instant Food",
+      "price": 12,
+      "unit": "1 pack",
+      "rating": 4,
+      "vestoScore": 3.2,
+      "image": "🍜"
+    },
+    {
+      "id": "p15",
+      "name": "Amul Butter",
+      "category": "Dairy",
+      "price": 56,
+      "unit": "100g",
+      "rating": 4.7,
+      "vestoScore": 7.5,
+      "image": "🧈"
+    },
+    {
+      "id": "p16",
+      "name": "Britannia Bread",
+      "category": "Bakery",
+      "price": 45,
+      "unit": "1 loaf",
+      "rating": 4.2,
+      "vestoScore": 6.8,
+      "image": "🍞"
+    },
+    {
+      "id": "p17",
+      "name": "Fresh Onion",
+      "category": "Vegetables",
+      "price": 35,
+      "unit": "1kg",
+      "rating": 4,
+      "vestoScore": 9,
+      "image": "🧅"
+    },
+    {
+      "id": "p18",
+      "name": "Fresh Potato",
+      "category": "Vegetables",
+      "price": 28,
+      "unit": "1kg",
+      "rating": 4,
+      "vestoScore": 8.8,
+      "image": "🥔"
+    },
+    {
+      "id": "p19",
+      "name": "Basmati Rice",
+      "category": "Grains",
+      "price": 320,
+      "unit": "5kg",
+      "rating": 4.5,
+      "vestoScore": 8.6,
+      "image": "🍚"
+    },
+    {
+      "id": "p20",
+      "name": "Toor Dal",
+      "category": "Pulses",
+      "price": 140,
+      "unit": "1kg",
+      "rating": 4.3,
+      "vestoScore": 9.1,
+      "image": "🫘"
+    },
+    {
+      "id": "p21",
+      "name": "Moong Dal",
+      "category": "Pulses",
+      "price": 120,
+      "unit": "1kg",
+      "rating": 4.4,
+      "vestoScore": 9.4,
+      "image": "🫘"
+    },
+    {
+      "id": "p22",
+      "name": "Green Apple",
+      "category": "Fruits",
+      "price": 180,
+      "unit": "1kg",
+      "rating": 4.3,
+      "vestoScore": 9.5,
+      "image": "🍏"
+    },
+    {
+      "id": "p23",
+      "name": "Banana",
+      "category": "Fruits",
+      "price": 40,
+      "unit": "1 dozen",
+      "rating": 4.5,
+      "vestoScore": 9.6,
+      "image": "🍌"
+    },
+    {
+      "id": "p24",
+      "name": "Amul Paneer",
+      "category": "Dairy",
+      "price": 90,
+      "unit": "200g",
+      "rating": 4.5,
+      "vestoScore": 8.8,
+      "image": "🧀"
+    },
+    {
+      "id": "p25",
+      "name": "Curd (Dahi)",
+      "category": "Dairy",
+      "price": 30,
+      "unit": "400g",
+      "rating": 4.2,
+      "vestoScore": 9,
+      "image": "🥛"
+    },
+    {
+      "id": "p26",
+      "name": "Red Chilli Powder",
+      "category": "Spices",
+      "price": 55,
+      "unit": "200g",
+      "rating": 4.3,
+      "vestoScore": 7.5,
+      "image": "🌶️"
+    },
+    {
+      "id": "p27",
+      "name": "Garam Masala",
+      "category": "Spices",
+      "price": 65,
+      "unit": "100g",
+      "rating": 4.6,
+      "vestoScore": 8.2,
+      "image": "🫙"
+    },
+    {
+      "id": "p28",
+      "name": "Tea (Taj Mahal)",
+      "category": "Beverages",
+      "price": 210,
+      "unit": "500g",
+      "rating": 4.5,
+      "vestoScore": 7,
+      "image": "🍵"
+    },
+    {
+      "id": "p29",
+      "name": "Nescafe Coffee",
+      "category": "Beverages",
+      "price": 195,
+      "unit": "200g",
+      "rating": 4.4,
+      "vestoScore": 5.5,
+      "image": "☕"
+    },
+    {
+      "id": "p30",
+      "name": "Sugar",
+      "category": "Essentials",
+      "price": 45,
+      "unit": "1kg",
+      "rating": 4,
+      "vestoScore": 4,
+      "image": "🍬"
+    }
+  ]
+}
